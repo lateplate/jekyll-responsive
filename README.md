@@ -4,6 +4,6 @@ This is just a quick set of CSS styles and slight markup changes from the [defau
 
 I picked a couple of free Google Fonts that I thought looked nice, but of course feel free to pick whatever you like.
 
-You can [see it action here](http://dankim.org/jekyll-responsive/).
+You can [see it action here](http://dankim.org).
 
 Thanks, and enjoy!
