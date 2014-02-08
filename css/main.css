@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', Georgia, Palatino, serif;
+}
+
+h2, h3 {
+  margin: 20px 0;
+  color: #484848;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+a {
+  color: #00a;
+}
+
+a:visited {
+  color: #8085C1;
+}
+
+a:hover {
+  color: #000;
+}
+
+blockquote {
+  padding: 0 25px;
+  color: gray;
+  font-family: 'Roboto Slab', Georgia, Palatino, serif;
+}
+
+.posts {
+  list-style-type: none;
+}
+
+.posts li {
+  line-height: 1.6em;
+  margin: 12px 0;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: "Source Code Pro", Monaco, "Courier New", monospace;
+  font-size: .9em;
+}
+
+.site {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  display: inline-block;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.footer {
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+  font-size: .9em;
+  line-height: 1.5em;
+  padding: 20px 0;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+.post {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.post li {
+  margin: 10px 0;
+}
+
+.post p {
+  margin: 15px 0;
+}
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 2em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+@media all and (min-width: 410px) {
+  .footer .contact {
+    float: left;
+    margin-right: 3em;
+  }
+}
+
+@media all and (min-width: 670px) {
+  .site {
+    width: 670px;
+    font-size: 1.1em;
+  }
+
+  .post {
+    line-height: 1.75em;
+  }
+
+  .post p {
+    margin: 20px 0;
+  }
+
+  .posts li {
+    font-size: .9em;
+    line-height: 1.85em;
+    margin: 0 auto;
+  }
+}
